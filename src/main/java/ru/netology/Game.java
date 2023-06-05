@@ -14,11 +14,10 @@ public class Game {
         Player player1 = null;
         Player player2 = null;
         for (Player player : players) {
-            if (player.getName().equals(playerName1));
-            {
+            if (player.getName().equals(playerName1)) {
                 player1 = player;
             }
-            if (player.getName().equals(playerName2)){
+            if (player.getName().equals(playerName2)) {
                 player2 = player;
             }
         }
